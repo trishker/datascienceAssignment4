@@ -94,4 +94,4 @@ colnames(thedata) <- varnames
 
 grouping <- group_by(thedata, subject, activity)
 res <- summarise_all(grouping, mean)
-write.table(res, "tidyds.txt", sep = "\t")
+write.table(res, "tidyds.txt", sep = "\t", row.name = FALSE)
