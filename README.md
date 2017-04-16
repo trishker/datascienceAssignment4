@@ -12,15 +12,13 @@ download these packages before running.
 Open RStudio. Save run_analysis.R to your working directory.
 Install the downloader and dplyr packages if you do not already have them installed.
 Run the script with the following command:
-`source(“run_analysis.R)`
+`source(“run_analysis.R”)`
 
 All the data will be downloaded to a folder called “Assignment4”. The tidy dataset will be written to a file called “tidyds.txt” in your working directory.
 To read the tidyds dataset in and look at it in R use the following command:
 
-`data <- read.table(“tidyds.txt”, header = TRUE) 
-View(data)`
-
-The
+`data <- read.table(“tidyds.txt”, header = TRUE)` 
+`View(data)`
 
 ## Why is tidyds.txt a tidy dataset
 
